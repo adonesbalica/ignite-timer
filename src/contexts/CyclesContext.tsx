@@ -1,4 +1,4 @@
-import { createContext, useReducer, useState } from 'react'
+import { createContext, useEffect, useReducer, useState } from 'react'
 import { cyclesReducer, type Cycle } from '../reducers/cycles/reducer'
 import {
   addNewCycleAction,
